@@ -1,7 +1,15 @@
 .prime {
   padding: 20px;
   background-color: blue;
+  color: white;
   }
+
+.prime:hover {
+  background-color: purple;
+  transition: 1s cubic-bezier(0.39, 0.575, 0.565, 1);
+  border-radius: 25px;
+  cursor: url('https://emojis.slackmojis.com/emojis/images/1597320283/10003/catjam.gif'), auto;
+}
 .second {
     padding: 20px;
     border-radius: 25px;
